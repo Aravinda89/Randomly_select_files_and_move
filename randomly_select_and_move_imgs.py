@@ -28,8 +28,3 @@ def randomly_select_move(src, dest, percentage=0.1):
             print("\n" + str(e))
             print("Error: ", f)
             continue
-
-
-source = "D:\\Damage_data\\Detection_data\\New folder\\Output\\FrontBumper\\replace - Copy"
-destination = "D:\\Damage_data\\Detection_data\\New folder\\Output\\FrontBumper\\replace_test"
-randomly_select_move(source, destination)
